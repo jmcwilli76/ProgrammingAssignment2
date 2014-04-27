@@ -2,9 +2,9 @@
 ## Allowing CPU / Time to be saved by retrieving the cached value if it is 
 ## asked to calculate the inverse of a Matrix that has been cached.
 ## Test matrix1 :  myMatrix1 <- mapply(rnorm,500,1:500)
-## Test matrix2 :  myMatrix2 <- mapply(rnorm,1000,1:1000)
-## Used system.time(solve(myMatrix1))
-## Used system.time(solve(myMatrix2))
+## Test matrix2 :  myMatrix2 <- mapply(rnorm,5000,1:5000)
+## Used system.time(solve(myMatrix1)) to get a baseline.
+## Used system.time(solve(myMatrix2)) to get a baseline.
 
 ## Create special Matrix object to cache the inverse.
 
